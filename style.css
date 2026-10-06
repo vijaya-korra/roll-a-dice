@@ -1,0 +1,73 @@
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+    background: #222;
+    color: white;
+     background:
+        linear-gradient(rgba(0, 0, 0, 0.55),
+                        rgba(0, 0, 0, 0.55)),
+        url("dice.avif");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.game {
+    text-align: center;
+    padding: 30px;
+
+    background: #152372;
+    border-radius: 20px;
+}
+
+.players {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+#yourDice,
+#myDice {
+    font-size: 100px;
+    margin: 20px;
+}
+
+p {
+    font-size: 25px;
+}
+
+button {
+    padding: 15px 25px;
+    margin: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+#rollButton {
+    background: #ff4757;
+    color: white;
+}
+
+#resetButton {
+    background: #2ed573;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
